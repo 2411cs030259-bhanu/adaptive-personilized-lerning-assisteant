@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+*.pt
+storage/uploads/*
+storage/vectors/*
+!storage/uploads/.gitkeep
+!storage/vectors/.gitkeep
+.pytest_cache/
+.coverage

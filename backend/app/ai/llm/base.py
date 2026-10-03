@@ -1,0 +1,6 @@
+from abc import ABC,abstractmethod
+class LLMProvider(ABC):
+    @abstractmethod
+    def generate_answer(self,question,context): ...
+    @abstractmethod
+    def generate_quiz(self,topic,context,count,difficulty): ...

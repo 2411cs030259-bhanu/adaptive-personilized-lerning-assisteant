@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: adaptive_learning
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - adaptive_pgdata:/var/lib/postgresql/data
+volumes:
+  adaptive_pgdata:

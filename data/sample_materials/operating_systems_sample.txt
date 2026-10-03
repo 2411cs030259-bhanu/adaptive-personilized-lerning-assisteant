@@ -1,0 +1,13 @@
+OPERATING SYSTEMS — SAMPLE STUDY NOTES
+
+Processes:
+A process is a program in execution. Process states commonly include new, ready, running, waiting and terminated.
+
+CPU Scheduling:
+CPU scheduling selects a process from the ready queue for execution. Common algorithms include FCFS, SJF, Priority and Round Robin.
+
+Synchronization:
+Synchronization coordinates concurrent processes or threads. Critical sections require controlled access to shared resources. Semaphores are a common synchronization mechanism.
+
+Deadlocks:
+A deadlock is a state where a group of processes waits indefinitely for resources held by one another. The four Coffman conditions are mutual exclusion, hold and wait, no preemption and circular wait. Avoidance and prevention are different strategies.
